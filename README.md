@@ -1,5 +1,7 @@
 # BREW_METRICS
 
+Coffee store sales Analysis
+
 In this project, I used **Excel** for **initial data preprocessing and transformation**. The raw dataset included **only the unit price** for various products across three locations. I calculated the **sales** by multiplying the unit price with the quantity sold and then used **a nested XLOOKUP function** to determine the **profit percentage** per product category and location for 2024. This allowed me to calculate the **profit** for each transaction.
 
 To ensure the data was ready for analysis, I applied date transformations in Power BI and used DAX queries to convert the transaction time, which included hours, minutes, and seconds, into a clean hour format for better time-based analysis.
