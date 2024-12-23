@@ -10,12 +10,13 @@ To ensure the data was ready for analysis, I applied date transformations in Pow
 
 The dashboard I created includes several key graphs, including:
 
-**Category Performance**
-**Profit Breakdown by Category**
-**Trending Products**
-**Peak Hours**
-**Busiest Days**
-**Sales Trend Over the Month**
+1) **Category Performance**
+2) **Profit Breakdown by Category**
+3) **Trending Products**
+4) **Peak Hours**
+5) **Busiest Days**
+6) **Sales Trend Over the Month**
+   
 For KPIs, I integrated metrics like **revenue, sales gains, orders sold, and quantity tracker**. These visualizations are **controlled through a location slicer**, allowing for easy filtering of data by store location.
 
 Additionally, I incorporated a **15-day sales forecast** in a separate page, with a **view forecast button** on the main dashboard that **links users to the forecasted data**. The dashboard also includes a graph displaying profit by location to visualize performance across different store locations.
