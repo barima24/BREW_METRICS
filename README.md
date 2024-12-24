@@ -2,23 +2,44 @@
 
 Coffee store sales Analysis
 
-Transaction records for Maven Roasters, a coffee shop operating out of three NYC locations. Dataset is of 6 months with more than 1 lakh data includes the transaction date, timestamp and location, along with product-level details.
+**Overview**
+Welcome to the Coffee Store Sales Analysis Dashboard! This project aims to uncover insights into the sales performance of a coffee store across multiple locations. By leveraging Power BI for advanced visualizations and Microsoft Excel for initial data preprocessing, this dashboard provides a comprehensive analysis of sales trends, profitability, and customer purchasing behavior.
 
-In this project, I used **Excel** for **initial data preprocessing and transformation**. The raw dataset included **only the unit price** for various products across three locations. I calculated the **sales** by multiplying the unit price with the quantity sold and then used **a nested XLOOKUP function** to determine the **profit percentage** per product category and location for 2024. This allowed me to calculate the **profit** for each transaction.
+**Objective**
+The goal of this project was to transform raw sales data into actionable insights. By employing data transformation techniques in Excel and creating interactive visualizations in Power BI, this analysis helps stakeholders track performance metrics, identify trends, and forecast future sales effectively.
 
-To ensure the data was ready for analysis, I applied date transformations in Power BI and used DAX queries to convert the transaction time, which included hours, minutes, and seconds, into a clean hour format for better time-based analysis.
+**Chapters**
 
-The dashboard I created includes several key graphs, including:
+1. **Data Preprocessing in Microsoft Excel**
 
-1) **Category Performance**
-2) **Profit Breakdown by Category**
-3) **Trending Products**
-4) **Peak Hours**
-5) **Busiest Days**
-6) **Sales Trend Over the Month**
+1) Consolidated and cleaned raw data, ensuring it was structured and ready for analysis.
+2) Created new columns, such as total sales and profit percentage per transaction, using Excel formulas (e.g., nested XLOOKUP).
+3) Transformed scattered location-specific data into a unified table for better integration into Power BI.
+4) Used Excel to derive essential metrics like sales per product category and profit margin by location.
+
+2. **Dashboard Development in Power BI**
+
+1) Built a dynamic and interactive Power BI dashboard to visualize key performance indicators (KPIs).
+2) Implemented a slicer to filter data by store location, allowing users to compare sales, profit, and transaction trends across stores.
+3) Utilized DAX functions for time-based analysis, transforming transaction hour data into readable formats for peak hour identification.
+4) Forecasted sales for the next 15 days using Power BI's built-in analytics tools.
+5) Included a navigation button to switch between detailed forecast pages and the main dashboard.
+
+3. **Visualizations and Key Features**
+
+1) Category Performance by Sales: Highlighted revenue contributions from different product categories.
+2) Profit Breakdown by Category: Showed profit percentage trends for various categories across locations.
+3) Trending Products: Identified products with the highest sales growth.
+4) Peak Hours and Busiest Days: Analyzed transaction data to determine customer footfall patterns by time and day.
+5) Location-Based Sales & Profit Analysis: Compared sales and profit margins across store locations.
+6) 15-Day Forecast: Predicted upcoming sales trends with interactive forecasting visuals.
+
+**Key Insights**
+
+1) Bakery and Coffee are the top-performing categories across all locations.
+2) Peak transaction times occur between 10 AM and 12 PM, reflecting busy morning hours.
+3) Lower Manhattan outperforms other locations in overall sales and profitability.
+4) Sundays consistently record the highest transactions, making it the busiest day of the week.
+5) The forecast shows a steady increase in sales, indicating strong customer demand.
    
-For KPIs, I integrated metrics like **revenue, sales gains, orders sold, and quantity tracker**. These visualizations are **controlled through a location slicer**, allowing for easy filtering of data by store location.
-
-Additionally, I incorporated a **15-day sales forecast** in a separate page, with a **view forecast button** on the main dashboard that **links users to the forecasted data**. The dashboard also includes a graph displaying profit by location to visualize performance across different store locations.
-
-**This interactive and dynamic dashboard offers insights into various key metrics, enabling better decision-making for store management and strategy optimization.**
+This project highlights the importance of data-driven decisions for enhancing operational efficiency and understanding customer preferences. The use of Power BI and Excel demonstrates a seamless workflow from data preprocessing to insightful storytelling.
