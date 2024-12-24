@@ -3,9 +3,11 @@
 Coffee store sales Analysis
 
 **Overview**
+
 Welcome to the Coffee Store Sales Analysis Dashboard! This project aims to uncover insights into the sales performance of a coffee store across multiple locations. By leveraging Power BI for advanced visualizations and Microsoft Excel for initial data preprocessing, this dashboard provides a comprehensive analysis of sales trends, profitability, and customer purchasing behavior.
 
 **Objective**
+
 The goal of this project was to transform raw sales data into actionable insights. By employing data transformation techniques in Excel and creating interactive visualizations in Power BI, this analysis helps stakeholders track performance metrics, identify trends, and forecast future sales effectively.
 
 **Chapters**
