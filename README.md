@@ -45,3 +45,9 @@ The goal of this project was to transform raw sales data into actionable insight
 5) The forecast shows a steady increase in sales, indicating strong customer demand.
    
 This project highlights the importance of data-driven decisions for enhancing operational efficiency and understanding customer preferences. The use of Power BI and Excel demonstrates a seamless workflow from data preprocessing to insightful storytelling.
+
+
+![image](https://github.com/user-attachments/assets/d6be2bdd-05d7-40fb-9252-f267b0f5dc81)
+![image](https://github.com/user-attachments/assets/afbed129-9e76-4456-8443-26824b76efe3)
+
+
